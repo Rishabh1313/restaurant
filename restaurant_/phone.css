@@ -1,0 +1,210 @@
+
+body {
+    text-transform: uppercase;
+    font-family: 'Baloo Bhai 2', cursive;
+    width: 100%;
+    height: 100%;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 20px;
+  }
+  .navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+  }
+  nav div {
+    align-items: center;
+    display: flex;
+    margin: 0px 30px;
+  }
+  #logo img {
+    padding: 4px;
+    border-radius: 50px;
+    margin: 0px;
+    width: 70px;
+  }
+  .unorder {
+    display: flex;
+    align-items: center;
+  }
+  ul li {display: flex  ;
+    flex-direction: column;
+    margin: 0px 30px;
+    list-style: none;
+  }
+  ul li a {width: 100%;
+    font-size: x-large;
+    padding: 8px;
+    width: auto;
+    display: block;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+  ul li a:hover {
+    background-color: white;
+    color: black;
+  }
+  /* section */
+  #home {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    color: white;
+    width: auto;
+    height: 650px;
+    align-items: center;
+    justify-content: center;
+  }
+  #home::before {
+    content: "";
+    position: absolute;
+    background: url(bg1.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 650px;
+    z-index: -1;
+    opacity: 0.9;
+  }
+  #home h1 {
+    font-size: 4rem;
+  }
+  #home p {
+      color:white;
+      font-size: 1.3rem;
+  }
+  button{
+      width: 10%;
+  height: auto;
+  font-size: 1.4rem;
+  padding: 3px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: rgb(105, 103, 103);
+  color: white;
+  }
+  button:hover{
+      cursor: pointer;
+      background-color: red;
+      text-decoration: underline;
+      color: white;
+  }
+  /* section 2 */
+  #secp {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .seccant {
+    background-color: black;
+    color: white;
+    height: 300px;
+    justify-content: space-evenly;
+    display: flex;
+    margin: 2px;
+  }
+  div .item {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    display: flex;
+    border-radius: 30px;
+    margin: 10px;
+    width: 30%;
+  }
+  div #item1 {
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-size: px;
+  }
+  #item1 img {
+    width: 40%;
+  }
+  #pi {
+    font-size: 2rem;
+  }
+  #po {
+    font-size: 1.1rem;
+  }
+  /* mid */
+  .mid {
+    display: block;
+  
+    background-color: white;
+  }
+  #middiv p {
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+  }
+  #middiba {
+    display: flex;
+    margin: 30px 50px;
+    justify-content: center;
+  }
+  #middiba img {
+    margin: 0px 30px;
+    width: 10%;
+  }.footer {
+    display: flex;
+    border: 2px solid black;
+    width: auto;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    
+  }
+  #foota{
+      border: 2px solid black;
+      padding: 30px;
+      border-radius: 30px;
+      margin: 30px;
+      background-color: white;
+      color: black;
+      
+  }
+  #pipoo3{
+  justify-content: center;
+  padding: 0px;
+  text-align: center;
+      margin: 0px;
+      font-size:2rem;
+  }
+  .box {
+      display: flex;
+    margin: 0px auto;
+      justify-content: center;
+  }
+  input{
+      width: 100%;
+      
+      border-radius: 5px;
+      font-size: 1.1rem;
+      color: black;
+      padding: 2px;
+  }
+  
+  textarea {
+      width: 100%;
+      border-radius: 5px;
+      font-size: 1.1rem;
+      padding: 2px;
+    }
+    
+  label {
+      font-size: 1.2rem;
+    }
